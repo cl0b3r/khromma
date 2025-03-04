@@ -1,6 +1,6 @@
-#nav{
+#nav, #main-about{
     text-align: center;
 }
-/* #nav{
-
-} */
+#main-about{
+    width: 400px;
+}
