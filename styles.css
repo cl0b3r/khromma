@@ -4,3 +4,7 @@
 #main-about{
     width: 400px;
 }
+.links-main a{
+    background-color: black;
+    color: white;
+}
