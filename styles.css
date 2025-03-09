@@ -10,7 +10,7 @@ body{
 }
 .main-h2{
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 13rem;
 }
 #nav, #main-about{
     text-align: center;
@@ -39,4 +39,7 @@ body{
     color: #FC5431;
     text-decoration-color: #FC5431;
     background-color: black;
+}
+.orange-letter{
+    color: #FC5431;
 }
