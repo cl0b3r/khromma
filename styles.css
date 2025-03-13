@@ -11,6 +11,7 @@ body{
 .main-h2{
     font-weight: 800;
     font-size: 13rem;
+    cursor: pointer;
 }
 #nav, #main-about{
     text-align: center;
@@ -24,22 +25,29 @@ body{
     align-items: center;
     height: 100px;
 }
+.links-main-home{
+    display: flex;
+    justify-content: center;
+    .a-div-home{
+        display: flex;
+    }
+}
 .a-div{
     display: flex;
     justify-content: space-between;
 }
-.links-main a{
+.links-main a,.links-main-home a{
     color: white;
     padding: 10px;
     margin: 1rem;
-    border: 1px solid transparent;
     
 }
-.links-main a:hover{
+.links-main,.links-main-home a:hover{
     color: #FC5431;
     text-decoration-color: #FC5431;
-    background-color: black;
+
 }
 .orange-letter{
     color: #FC5431;
 }
+
